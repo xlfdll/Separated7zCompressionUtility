@@ -7,8 +7,8 @@
     <ProjectGuid>{26F8A431-48FA-4ABF-AAD3-2F891FDDB704}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Separated7zCompressTool</RootNamespace>
-    <AssemblyName>Separated7zCompressTool</AssemblyName>
+    <RootNamespace>Separated7zCompressionUtility</RootNamespace>
+    <AssemblyName>Separated7zCompressionUtility</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

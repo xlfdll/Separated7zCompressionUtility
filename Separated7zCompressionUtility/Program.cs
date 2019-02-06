@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.IO;
 
-namespace Separated7zCompressTool
+namespace Separated7zCompressionUtility
 {
     class Program
     {
