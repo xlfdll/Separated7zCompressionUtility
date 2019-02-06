@@ -8,7 +8,7 @@ namespace Separated7zCompressionUtility
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Separated 7-Zip Compression Tool");
+            Console.WriteLine("Separated 7-Zip Compression Utility");
             Console.WriteLine("(C) 2019 Xlfdll Workstation");
             Console.WriteLine();
 
@@ -43,7 +43,10 @@ namespace Separated7zCompressionUtility
             {
                 Console.WriteLine("Usage:");
                 Console.WriteLine();
-                Console.WriteLine("Separated7zCompressTool <Directory> <Search Pattern>");
+                Console.WriteLine("Separated7zCompressionUtility  <Directory> <Search Pattern>");
+                Console.WriteLine();
+                Console.WriteLine("<Directory> - The directory containing files to be compressed");
+                Console.WriteLine("<Search Pattern> - The search pattern to pick specific files (for example, *.txt, *.*, etc.)");
                 Console.WriteLine();
             }
         }
