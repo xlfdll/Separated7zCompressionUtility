@@ -47,7 +47,7 @@ namespace Separated7zCompressionUtility
                 Console.WriteLine();
                 Console.WriteLine("<Directory> - The directory containing files to be compressed");
                 Console.WriteLine("<Search Pattern> - The search pattern to pick specific files (for example, *.txt, *.*, etc.)");
-                Console.WriteLine("/nodel - Do not delete original files (the default behavior is to delete all original files after compression)");
+                Console.WriteLine("/nodel - Optional. Do not delete original files (the default behavior is to delete all original files after compression)");
                 Console.WriteLine();
             }
         }
