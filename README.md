@@ -9,10 +9,11 @@ A small utility to compress files to a list of 7-Zip archives individually
 
 ## Usage
 ```
-Separated7zCompressionUtility <Directory> <Search Pattern>
+Separated7zCompressionUtility [/nodel] <Directory> <Search Pattern>
 ```
 * **\<Directory\>** - The directory containing files to be compressed
 * **\<Search Pattern\>** - The search pattern to pick specific files (for example, *.txt, *.*, etc.)
+* **/nodel** - Do not delete original files (the default behavior is to delete all original files after compression)
 
 ## Development Prerequisites
 * Visual Studio 2015+

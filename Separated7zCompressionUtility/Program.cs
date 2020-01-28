@@ -43,10 +43,11 @@ namespace Separated7zCompressionUtility
             {
                 Console.WriteLine("Usage:");
                 Console.WriteLine();
-                Console.WriteLine("Separated7zCompressionUtility  <Directory> <Search Pattern>");
+                Console.WriteLine("Separated7zCompressionUtility [/nodel] <Directory> <Search Pattern>");
                 Console.WriteLine();
                 Console.WriteLine("<Directory> - The directory containing files to be compressed");
                 Console.WriteLine("<Search Pattern> - The search pattern to pick specific files (for example, *.txt, *.*, etc.)");
+                Console.WriteLine("/nodel - Do not delete original files (the default behavior is to delete all original files after compression)");
                 Console.WriteLine();
             }
         }
