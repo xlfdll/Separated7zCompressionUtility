@@ -5,7 +5,7 @@ A small utility to compress files to a list of 7-Zip archives individually
 * .NET Framework 2.0
 * 7-Zip for Windows (Download at https://www.7-zip.org/)
 
-[Runtime configuration](https://docs.microsoft.com/en-us/dotnet/framework/migration-guide/how-to-configure-an-app-to-support-net-framework-4-or-4-5) is needed for running in .NET Framework 4.0+.
+[Runtime configuration](https://docs.microsoft.com/en-us/dotnet/framework/migration-guide/how-to-configure-an-app-to-support-net-framework-4-or-4-5) is needed for running on .NET Framework 4.0+.
 
 ## Usage
 ```
@@ -18,4 +18,4 @@ Separated7zCompressionUtility [/nodel] <Directory> <Search Pattern>
 ## Development Prerequisites
 * Visual Studio 2015+
 
-Before the build, generate-build-number.sh needs to be executed in a Git / Bash shell to generate build information code file (BuildInfo.cs).
+Before the build, generate-build-number.sh needs to be executed in a Git / Bash shell to generate build information code file (`BuildInfo.cs`).
